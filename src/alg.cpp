@@ -3,7 +3,6 @@
 int cbinsearch(int *arr, int size, int value) {
   int a;
   int count = 0, leftborder = 0, rightborder = size;
-  
    do {
       int i = (leftborder + rightborder)/2;
       a = i;
@@ -26,5 +25,5 @@ int cbinsearch(int *arr, int size, int value) {
         rightborder = i - 1;
       }
      while (leftborder <= rightborder);
-  return 0; // если ничего не найдено
+  return 0;
 }
