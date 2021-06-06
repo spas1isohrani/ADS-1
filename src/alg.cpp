@@ -1,8 +1,8 @@
 // Copyright 2021 NNTU-CS
 
-int cbinsearch(int *arr, int SIZE, int value) {
+int cbinsearch(int *arr, int size, int value) {
   int a;
-  int count = 0, leftborder = 0, rightborder = SIZE;
+  int count = 0, leftborder = 0, rightborder = size;
   
    do {
       int i = (leftborder + rightborder)/2;
